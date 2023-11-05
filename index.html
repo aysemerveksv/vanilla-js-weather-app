@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>WeatherMoods</title>
+  </head>
+</html>
+<body>
+    <div class="weather-card">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="ENTER YOUR LOCATION">
+            <button class="bx bx-search"></button>
+        </div>
+
+        <div class="city-hide">
+            city hide
+        </div>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="images/cloud.png">
+                        <p class="temperature">0<span>°C</span></p>
+                        <p class="description">Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity"><span>0%</span></div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind"><span>0Km/h</span></div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src ="images/no-data.png">
+                <p>Opps! No location found!</p>
+            </div>
+        </div>
+        
+        
+    </div>    
+
+    <div class="mood-selection"></div>
+
+    <div class="quotes"></div>
+
+    <div class="weather-maching"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
