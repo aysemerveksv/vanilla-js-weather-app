@@ -11,6 +11,9 @@ body {
   align-items: center;
   background: linear-gradient(45deg, #a493ab, #d9cac6, #d5ddd3, #faeedd);
   color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .weather-card {
@@ -73,6 +76,7 @@ body {
 .weather-box {
   text-align: center;
   margin: 40px 0;
+  transition: 0.5s ease;
 }
 
 .weather-box,
